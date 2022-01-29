@@ -21,6 +21,7 @@ export class GoogleAdsApi implements ICredentialType {
 			name: 'developerToken',
 			type: 'string',
 			default: '',
+			required: true, 
 		},
 		{
 			displayName: 'Ignore SSL Issues',

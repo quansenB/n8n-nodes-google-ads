@@ -63,7 +63,7 @@ export class GoogleAds implements INodeType {
             value: "serviceAccount",
           },
         ],
-        default: "oAuth2",
+        default: "serviceAccount",
       },
       {
         displayName: "Resource",
